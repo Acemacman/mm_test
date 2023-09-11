@@ -160,6 +160,9 @@ nav.sticky{
     .text-box h1 {
         font-size: 24px;
     }
+      .main-title h2{
+    font-size: 20px;
+    }
     .nav-links ul li{
         display: block;
     }
