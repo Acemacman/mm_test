@@ -162,6 +162,7 @@ nav.sticky{
     }
       .main-title h2{
     font-size: 20px;
+    padding-bottom: 5%;
     }
     .nav-links ul li{
         display: block;
