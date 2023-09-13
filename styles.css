@@ -144,7 +144,7 @@ nav.sticky{
 }
 /*----- Responsive style -----*/
 
-@media(max-width: 600px){
+@media(max-width: 1200px){
     .text-box {
     width: 70%;
     top: 50%;
