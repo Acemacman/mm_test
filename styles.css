@@ -452,8 +452,8 @@ h3{
     height 100vh;
 }
 .cta{
-    width: 80%;
-    margin: 0;
+    width: 100%;
+    margin: auto;
     padding-bottom: 0.7em;
     text-align: center;
     padding-top: 6.2em;
