@@ -80,14 +80,14 @@ nav ul li{
     position: absolute;
     top: 20%;
     left: 50%;
-    transform: translate(-50%,-10%);
+    transform: translate(-50%, 5%);
     text-align: center;
     -webkit-text-fill-color: #5139af;
     -webkit-text-stroke-width:0.03em;
    
 }
 .main-title h2{
-    font-size: 1.2em;
+    font-size: 2em;
     font-weight: 300;
     color: #fff;
     position: absolute;
@@ -130,7 +130,7 @@ nav ul li{
     border: 1px solid #fff;
     border-radius: 1.5em;
     padding: 0.5em 1.51em;
-    font-size: 1.5em;
+    font-size: 1em;
     background: rgba(220,41,209,0.3);
     position: relative;
     cursor: pointer;
@@ -453,6 +453,7 @@ h3{
 }
 .cta{
     width: 80%;
+    margin: auto;
     padding-bottom: 0.7em;
     text-align: center;
     padding-top: 6.2em;
