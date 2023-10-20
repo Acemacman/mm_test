@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Manola Media</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,400&family=Chewy&family=Edu+SA+Beginner:wght@400;600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+      <section>
+        <div class="header">
+           <nav id="navbar">
+               <a href="index.html"><img src="images/logo.png" class="logo"></a>
+               <div class="nav-links" id="navLinks">
+                  <i class="fa fa-times" onclick="hideMenu()"></i> 
+              <ul id="menu">
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="services.html">SERVICES</a></li>
+                  <li><a href="pricing.html">PRICING</a></li>
+                  <li><a href="portfolio.html">PORTFOLIO</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+                 </ul>
+               </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+               </nav>
+            <div class="main-title">
+                <h2> About</h2>
+               <h1>MANOLA MEDIA</h1> 
+            </div>
+         <div class="bitmoji">
+                <img src="images/weve_got_you.png">
+          </div>
+            
+      </div>
+    </section>
+      
+<!----- About Page ----->
+      
+   <div class="cta-background">
+    <section class="about">
+        <div class="about_avatar">
+            <img src="images/avatar%20pic1.jpg">
+        </div>
+        <div class="about_info">
+            <h3>Say Hi to Angie</h3>
+            <p>Manola Media is the creation of Angie Mallafre.  It started as a venture to help the small business person to be able to sort out their Social Media Marketing stratergy.  It has now evolved into the whole Digital Market field.<br>Angie started the journey by making sure that her own business was utilizing social media to enhance her turn over within the Pub trade.<br>When Angie came out of the trade in 2017, she decided to help others with their Social Media presence making sure it was within their budget.</p>
+        
+        </div>
+    </section>
+    <section class="about">
+        <div class="about_info">
+            <h3>Say Hi to Mark</h3>
+            <p>Mark is Angie's partner. Mark did computer programming whilst serving in the forces.<br>He helped Angie out when he could, in making up websites. However he could not commit to it full time as he was working long hours as a carpenter.<br>due to personal reasons, he is now working from home and has joined Angie in Manola Media.<br> This means that they are now able to offer more services and help out more small businesses.</p>
+        </div>
+        <div class="about_avatar">
+            <img src="images/Mark_avatar_pic_1.png" alt="avatar of mark waving saying hi" >
+        </div>
+    </section>
+  </div>
+
+
+      
+    <!--- Call To Action --->
+   
+      <div class="cta-background">
+<section class="cta">
+    <h1>If you need any advice or additional information<br> please feel free to get in touch with us.</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+       
+</section>
+          </div>
+  
+       
+<!--- Footer --->
+  <div class="footer-background">
+      
+      </div>
+      
+      <div class="icons-background">
+      <section class="icons">
+            <div class="social">
+                <a href="https://www.facebook.com/MANOLAMEDIA" target="_blank"><img src="images/image1.png" class="image"></a>
+                <a href="https://twitter.com/MANOLAMEDIA" target="_blank"><img src="images/twitter.png"></a>
+                <a href="https://www.pinterest.co.uk/manolamedia" target="_blank"><img src="images/pintrest.png"></a>
+                <a href="https://www.instagram.com/manolamedia/" target="_blank"><img src="images/instagram.png"></a>
+            </div>
+    <p>Website designed and built by Manola Media ©2023</p>
+       
+      </section>
+      </div>
+      
+
+
+      
+    <!--------JavaScript for togglemenu---->
+   
+<script>
+     var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+   <!--------JavaScript for sticky navbar---->
+    
+    var navbar = document.getElementById("navbar");
+    var menu = document.getElementById("menu");
+    
+    window.onscroll = function(){
+        if(window.pageYOffset >= menu.offsetTop){
+            navbar.classList.add("sticky");
+        }
+        else{
+            navbar.classList.remove("sticky");
+        }
+    } 
+</script>
+<!--------JavaScript for auto type feature---->      
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed(".auto-input", {
+        strings: ["Need a new Website building .... WE'VE GOT YOU", "Need your New site to be more visual....WE'VE GOT YOU", "Need Re-branding .... WE'VE GOT YOU", "Need better Social Media presence ....WE'VE GOT YOU", "Problems with Web Hosting ....WE'VE GOT YOU"],
+        typeSpeed: 100,
+        backSpeed: 40,
+        loop: true,
+    })
+      
+</script>
+       
+  </body>
+</html>

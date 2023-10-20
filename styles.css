@@ -5,6 +5,7 @@
 }
 html {
   box-sizing: border-box;
+  font-size: 16px;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -25,7 +26,7 @@ nav {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-     background: #fff;
+    background: #fff;
 }
 .logo{
     width: 9em;
@@ -55,7 +56,7 @@ nav ul li{
 .nav-links ul li a {
     color: #000;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 .nav-links ul li::after {
@@ -74,7 +75,7 @@ nav ul li{
 /*----- Main Title Home Page -----*/
 
 .main-title h1{
-    font-size: 5.6em;
+    font-size: 5.6rem;
     font-weight: 600;
     color: #fff;
     position: absolute;
@@ -83,11 +84,11 @@ nav ul li{
     transform: translate(-50%, 5%);
     text-align: center;
     -webkit-text-fill-color: #5139af;
-    -webkit-text-stroke-width:0.03em;
+    -webkit-text-stroke-width:0.03rem;
    
 }
 .main-title h2{
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 300;
     color: #fff;
     position: absolute;
@@ -104,23 +105,24 @@ nav ul li{
     left: 50%;
     transform: translate(-50%,-10%);
     text-align: center;
-    line-height: 50px;
+    line-height: 2em;
    text-decoration: none;
     color: #fff;
     border: 1px solid #95158e;
     border-radius: 25px;
     padding: 6px 8px;
-    font-size: 25px;
+    font-size: 2rem;
     background: rgba(81,57,175,0.3);
     
    
 }
 .bitmoji {
-    position: relative;
-    top:40%;
-    left: 35%;
+    position: absolute;
     border-radius: 5%;
-    align-content: center;
+    top: 45%;
+    left: 45%;
+    transform: translate(-40%, 10%);
+    
 }
 
 .hero-btn {
@@ -128,12 +130,13 @@ nav ul li{
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
-    border-radius: 1.5em;
-    padding: 0.5em 1.51em;
-    font-size: 1em;
+    border-radius: 12px;
+    padding: 0.75em 2.1em;
+    font-size: 1.125rem;
     background: rgba(220,41,209,0.3);
     position: relative;
     cursor: pointer;
+    border-radius: 1.5em;
 }
 .hero-btn:hover {
     border: 1px solid #95158e;
@@ -146,11 +149,11 @@ nav .fa {
 }
 
 .text-box p{
-    padding: 20px 8%;
+    padding: 1.25em 8%;
 }
 nav.sticky{
     position: fixed;
-    width: 100%
+    width: 100%;
     top: 0;
     left: 0;
     z-index: 50;
@@ -167,7 +170,7 @@ nav.sticky{
     text-align: center;
 }
    .main-title h1{
-    font-size: 3.5em;
+    font-size: 3.5rem;
     font-weight: 600;
     color: #fff;
     position: absolute;
@@ -181,15 +184,15 @@ nav.sticky{
     }
     .text-box p{
         text-align: center;
-        font-size: 1em;
+        font-size: 1rem;
     }
     .text-box h1 {
-        font-size: 1.5em;
+        font-size: 1.5rem;
     }
     .main-title h2{
         margin-top: 1px;
         padding-bottom: 5%;
-        font-size: 1.25em;
+        font-size: 1.25rem;
     }
     .hero-btn {
     display: inline-block;
@@ -198,7 +201,7 @@ nav.sticky{
     border: 1px solid #fff;
     border-radius: 1.5em;
     padding: 0.5em 1.51em;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     background: rgba(220,41,209,0.3);
     position: relative;
     cursor: pointer;
@@ -221,14 +224,14 @@ nav.sticky{
         display: block;
         color: #00008b;
         margin: 10px;
-        font-size: 22px;
+        font-size: 1.375rem;
         cursor: pointer;
     }
     .nav-links ul {
         padding: 0px;
     }
     .nav-links ul li a{
-        font-size: 15px;
+        font-size: 0.94rem;
     }
     .row{
         flex-direction: column;
@@ -241,13 +244,12 @@ nav.sticky{
       
 }
 .bitmoji {
-    left: 15%;
-    align-content: space-between;
+     align-content: center;
     
 }
 .bitmoji img{
-    width: 200px;
-    height: 200px;
+    width: 9.375em;
+    height: 9.375em;
 }
 
 }
@@ -263,7 +265,7 @@ nav.sticky{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 6.25em;
     
 }
 
@@ -283,14 +285,14 @@ nav.sticky{
 }
 
 h1{
-    font-size: 2.55em;
+    font-size: 2.55rem;
     color: #fff;
     font-weight: 400;
     padding-bottom: 2.5em;
     
 }
 .services p{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #fff;
     font-weight: 100;
     line-height: 1.55em;
@@ -306,20 +308,19 @@ h1{
     
 }
 h3{
-   font-size: 1.5em;
+   font-size: 1.5rem;
     color: #fff;
     font-weight: 200;
     padding: 0.35em;  
 }
 
 .services-col p{
-     font-size: 1em;
+     font-size: 1rem;
     color: #fff;
     font-weight: 100;
     padding: 0.35em;
 }
 .services-col img{
-    height: 80%;
     padding-top: 1.6em;
 }
 .services-col:hover {
@@ -341,7 +342,7 @@ h3{
     padding-top: 6.25em;
 }
 .pricing p{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #fff;
     font-weight: 100;
     line-height: 1.63em;
@@ -368,7 +369,7 @@ h3{
     transition: 0.5s;
 }
 .pricing-col p{
-     font-size: 1em;
+     font-size: 1rem;
     color: #fff;
     font-weight: 100;
     padding: 0.26em;
@@ -396,7 +397,7 @@ h3{
     text-align: center;
 }
 .portfolio p{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #fff;
     font-weight: 100;
     line-height: 1.6em;
@@ -429,7 +430,7 @@ h3{
     border-radius: 50%;
 }
 .portfolio-col p{
-    font-size: 1em;
+    font-size: 1rem;
     color: #fff;
     font-weight: 100;
     padding: 0.3em;
@@ -453,11 +454,60 @@ h3{
 }
 .cta{
     width: 100%;
-    margin: auto;
-    padding-bottom: 0.7em;
+    margin: 0;
+    padding: 0.7em 2em;
     text-align: center;
     padding-top: 6.2em;
+    line-height: 2em;
 }
+.cta a{
+    padding: 6px 8px;
+}
+
+/*---About Page ----*/
+.about-angie {
+    padding-bottom: 20em;
+}
+
+.about_avatar img{
+    height: 15em;
+    border-radius: 35%;
+    margin: 0 auto;
+    
+
+}
+.about_avatar{
+    width: 30%;
+    display: flex;
+    justify-items: center;
+    padding-top: 5%;
+}
+
+.about {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.about_info {
+    width: 60%;
+    
+}
+
+.about_info p{
+    font-size: 1.5rem;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    flex: 1;
+    padding: 0.7em 2em 0.7em 4em;
+}
+
+.about_info h3{
+    text-align: center;
+    font-size: 2rem;
+}
+
 
 /*--- FOOTER----*/
 
@@ -474,13 +524,13 @@ h3{
     padding-bottom: 3.125em;
 }
 .footer h4{
-    font-size: 2em;
+    font-size: 2rem;
     color: #fff;
     font-weight: 400;
     padding-bottom: 1.25em;
     
 }.footer p{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #fff;
     font-weight: 100;
     line-height: 1.5em;
@@ -517,8 +567,13 @@ h3{
 }
 .icons p{
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1.1rem;
     color: #fff;
 }
 
+@media(max-width: 600px){
+    .about{
+        display: block;
+    }
 
+}
