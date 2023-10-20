@@ -578,5 +578,8 @@ h3{
     .about_info p{
         font-size:0.9rem;
     }
+    .about_info{
+        width: 100%;
+    }
 
 }
