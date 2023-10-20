@@ -575,5 +575,8 @@ h3{
     .about{
         display: block;
     }
+    .about_info{
+        font-size:0.9rem;
+    }
 
 }
